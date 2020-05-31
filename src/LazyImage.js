@@ -75,7 +75,7 @@ const LazyImage = ({src, alt, index}) => {
             src={imgSrc} 
             onLoad={onLoad}
             alt={alt}></img>
-            <figcaption>{index}</figcaption>
+            <figcaption>{index} - {alt}</figcaption>
         </figure>
     )
   }

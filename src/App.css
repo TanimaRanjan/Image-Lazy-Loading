@@ -9,14 +9,13 @@ body {
   margin: 2rem calc(2vw + 2rem);
 }
 
-
 /* //opacity 1000ms ease-in-out, background 800ms ease-in-out, transform 800ms cubic-bezier(.45,0,.27,1) */
 
 .main {
   margin-top:30rem;
     display: block;
     columns: 25rem;
-  gap: 2rem;
+   gap: 2rem;
 }
 
 .container {
@@ -54,12 +53,11 @@ img {
   display: block;
   /*   border-radius:1rem 1rem 0 0; */
 
-  
 }
 
 
 img.loaded:not(.has-error) {
-  animation: loaded 300ms ease-in-out;
+  animation: loaded 5s ease-in-out;
 }
 
 /* img.has-error {
